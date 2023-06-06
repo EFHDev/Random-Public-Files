@@ -10,6 +10,8 @@ body {
 /* Heading styles */
 h1 {
   color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -28,6 +30,30 @@ p {
   margin-bottom: 10px;
 }
 
+/* Warn styles */
+.warn {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.warn p {
+  margin-bottom: 5px;
+}
+
+/* Ban styles */
+.ban {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffe6e6;
+}
+
+.ban p {
+  margin-bottom: 5px;
+}
+
 /* Other bans styles */
 .other-bans {
   margin-left: 20px;
@@ -38,3 +64,46 @@ p {
   margin-bottom: 5px;
 }
 
+/* Mute styles */
+.mute {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.mute p {
+  margin-bottom: 5px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #333;
+}
